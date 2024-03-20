@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Terminal } from "lucide-react";
 import "./App.css";
-
+import image1 from "./assets/cash.jpg";
 import styled from "styled-components";
 // import { CiMenuFries } from "react-icons/ci";
 import MotionLogo from "./assets/logo.json";
@@ -150,6 +150,17 @@ function App() {
             </p>
           </div>
           <BlogComponenet />
+          <p className="flex flex-col text-justify font-sans font-medium">
+            If you want a no hassle free experience in selling your Junk Car to
+            a reputable cash car buyer, GA Cash For Cars is the answer. As the
+            best Auto Buyer, we strive to pay the highest cash for cars. We buy
+            used cars, running or not. In order for us to be the Best Used car
+            buyer in Georgia, we always pay the most cash for used cars. We will
+            answer any questions you may have about about selling your car, such
+            as “sell my car for cash” or “who buys cars for cash” can easily be
+            answered by Us, just call 404-287-6767.
+          </p>
+          <img src={image1} alt="woman with cash " />
         </div>
       </AboutContainer>
       <FotterComponent />
