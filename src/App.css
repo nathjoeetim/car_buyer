@@ -1,0 +1,13 @@
+#root {
+  max-width: 1380px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: beige;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
