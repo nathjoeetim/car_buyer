@@ -11,7 +11,7 @@ import styled from "styled-components";
 function ContactFormComponent() {
   return (
     <FormContainer className="flex flex-col gap-1">
-      <CustomCard className="flex flex-col gap-5 p-2 flex-1 w-[400px] h-fit">
+      <CustomCard className="flex flex-col gap-5 p-2 flex-1 max-sm:w-full w-[400px] h-fit">
         <CardTitle className="text-lg">
           We Would Love To Hear From You
         </CardTitle>
