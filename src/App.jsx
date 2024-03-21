@@ -2,9 +2,7 @@ import { useEffect, useState } from "react";
 import { Terminal } from "lucide-react";
 import "./App.css";
 import image1 from "./assets/parts-2.png";
-import image0 from "./assets/car-2.jpeg";
 import styled from "styled-components";
-// import MotionLogo from "./assets/logo.json";
 import CompaniesLogo from "./components/logo";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { FaArrowUp } from "react-icons/fa6";
@@ -120,32 +118,33 @@ function App() {
           Cars we Purchase
         </CardTitle>
         <p className="w-[98%] mx-auto mt-2 mb-4">
-          We buy junk cars and pay cash on the spot. free towing We also buy
-          running cars depending on how good it is and you have to drive it to
-          me and pay good money
+          We purchase junk cars and offer cash on the spot, along with free
+          towing! Additionally, we buy running cars based on their condition,
+          and if it&apos;s in good shape, you can simply drive it to us and
+          receive good compensation.
         </p>
-        <div className="flex flex-row gap-4 items-center justify-start w-full overflow-x-scroll">
-          <Card className="w-[200px]">
-            <HeaderContainer backgroundimagemobile={image0} />
-          </Card>{" "}
-          <Card className="w-[200px]">
-            <HeaderContainer backgroundimagemobile={image0} />
-          </Card>{" "}
-          <Card className="w-[200px]">
-            <HeaderContainer backgroundimagemobile={image0} />
-          </Card>{" "}
-          <Card className="w-[200px]">
-            <HeaderContainer backgroundimagemobile={image0} />
-          </Card>{" "}
-          <Card className="w-[200px]">
-            <HeaderContainer backgroundimagemobile={image0} />
-          </Card>{" "}
-          <Card className="w-[200px]">
-            <HeaderContainer backgroundimagemobile={image0} />
-          </Card>{" "}
-          <Card className="w-[200px]">
-            <HeaderContainer backgroundimagemobile={image0} />
-          </Card>
+        <div className="flex flex-row gap-7 items-center justify-start w-full overflow-x-scroll p-4">
+          <div className="w-[250px]">
+            <HeaderContainer backgroundimagemobile="https://www.pngkey.com/png/detail/1-19590_mazda-car-png-hd-car-images-hd-png.png" />
+          </div>{" "}
+          <div className="w-[250px]">
+            <HeaderContainer backgroundimagemobile="https://www.pngkey.com/png/detail/64-648183_pontiac-usa-wreck-dare-corrosion-old-car-png.png" />
+          </div>{" "}
+          <div className="w-[250px]">
+            <HeaderContainer backgroundimagemobile="https://www.pngkey.com/png/detail/922-9226272_enterprise-rental-car-luxury-cars-bmw-x5-car.png" />
+          </div>{" "}
+          <div className="w-[250px]">
+            <HeaderContainer backgroundimagemobile="https://www.pngkey.com/png/detail/12-129321_recherche-google-recortes-para-photoshop-cut-out-cars.png" />
+          </div>{" "}
+          <div className="w-[250px]">
+            <HeaderContainer backgroundimagemobile="https://www.pngkey.com/png/detail/1005-10053780_2019-red-toyota-rav4-toyota-rav-4.png" />
+          </div>{" "}
+          <div className="w-[250px]">
+            <HeaderContainer backgroundimagemobile="https://www.pngkey.com/png/detail/250-2506978_new-2019-toyota-corolla-le-toyota-corolla-le.png" />
+          </div>{" "}
+          <div className="w-[250px]">
+            <HeaderContainer backgroundimagemobile="https://www.pngkey.com/png/detail/367-3674078_2013-audi-a6-3-0-t-quattro-tiptronic.png" />
+          </div>
         </div>
       </Card>
       <AboutContainer className="flex flex-row w-[98%] p-2 gap-10">
@@ -157,24 +156,25 @@ function App() {
             </a>
           </div>
           <p className="flex flex-col text-justify font-sans font-medium">
-            GA Cash for Cars is one of the leading Junk Car buyer in Georgia. We
-            have been providing the safest, fastest, and easiest way to sell
-            your car for the last 10 years. We buy junk cars in any condition,
-            paying the most cash for junk cars. We are dedicated to giving our
-            customers a hassle free experience when they use our services. Our
-            dedicated staff are always on standby to give you the best quote
-            possible for your Car. Looking for a junk car removal company, Give
-            us a call or complete our contact form today and receive your FREE
-            quote at +4048900083. Our Buyers are extensively trained in the act
-            of satisfying our customer. We will buy any car, running or not and
-            will pay Top Dollar for your junk car. When you think about junk my
-            car, junk cars removal service in Georgia is not one thing that we
-            do but the only business we do. <br />
+            Ari-cash for Cars stands as a premier junk car buyer in Georgia,
+            distinguished for our longstanding commitment to exceptional
+            service. With years of expertise, we offer a secure, expedited, and
+            seamless process for selling your vehicle. <br /> <br />
+            We specialize in purchasing junk cars in any condition, offering top
+            dollar for your vehicle. Our priority is to provide customers with a
+            hassle-free experience. Our dedicated team is readily available to
+            offer the best possible quote for your car. Whether you&apos;re
+            seeking junk car removal services, simply give us a call or fill out
+            our contact form to receive your FREE quote at +4048900083. Our
+            buyers undergo extensive training to ensure customer satisfaction.
+            We accept cars in any condition, running or not, and pay in the
+            currency of your choice. At Ari-cash for Cars, junk car removal
+            isn&apos;t just a service we offer—it&apos;s our sole focus. <br />
             <br />
-            Have a question about our Cash for Junk Car Services? Want to see if
-            your particular project is one we can help with? Give us a call or
-            fill out our contact form and we will get back with as soon as
-            possible with a quote. We look forward to serving you.
+            Do you have any questions about our Cash for Junk Car Services?
+            Curious if we can assist with your specific project? Feel free to
+            reach out to us by phone or through our contact form, and we&apos;ll
+            promptly provide you with a quote. We&apos;re eager to serve you!
           </p>
           <div className="flex flex-col text-justify font-sans font-medium gap-3">
             <span className="font-bold">Hour Of Operation</span>
@@ -189,14 +189,15 @@ function App() {
           </div>
           {/* <BlogComponenet /> */}
           <p className="flex flex-col text-justify font-sans font-medium">
-            If you want a no hassle free experience in selling your Junk Car to
-            a reputable cash car buyer, GA Cash For Cars is the answer. As the
-            best Auto Buyer, we strive to pay the highest cash for cars. We buy
-            used cars, running or not. In order for us to be the Best Used car
-            buyer in Georgia, we always pay the most cash for used cars. We will
-            answer any questions you may have about about selling your car, such
-            as “sell my car for cash” or “who buys cars for cash” can easily be
-            answered by Us, just call 404-287-6767.
+            For a hassle-free selling experience of your junk car to a trusted
+            cash car buyer, look no further than Ari-cash For Cars. As the
+            premier auto buyer, we are committed to offering the highest cash
+            for cars. Whether your car is used, running, or not, we&apos; re
+            here to provide top dollar for it. As the leading used car buyer in
+            Georgia, we always ensure our customers receive the best cash offer.
+            Have questions about selling your car for cash? Wondering who buys
+            cars for cash? Simply give us a call at+4048900083, and we&apos;ll
+            address all your inquiries.
           </p>
           <div className="flex flex-col w-full text-slate-600 gap-5">
             <h4 className="text-2xl text-slate-900 font-bold underline">
@@ -229,20 +230,27 @@ const TopCardStyled = styled.div`
     flex-direction: column;
   }
 `;
-
 const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: start;
-  padding: 1rem;
-  width: 200px;
+  width: 250px;
   height: 10rem;
   box-sizing: border-box;
   position: relative;
   padding: 10px;
-  background-color: aliceblue;
+  cursor: pointer;
   background-image: url(${props => props.backgroundimagemobile});
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+  /* background-position: 100%; */
+  background-repeat: no-repeat;
+  object-fit: contain;
   transition: all 1s ease;
+  background-size: contain; /* Adjust this property to change how the image fits */
+  background-position: center;
+
+  &:hover {
+    transform: scale(1.1); /* You can adjust the scale factor as needed */
+  }
 `;

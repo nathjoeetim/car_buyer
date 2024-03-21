@@ -104,6 +104,7 @@ export default ContactFormComponent;
 const CustomCard = styled(Card)`
   @media screen and (max-width: 907px) {
     width: 98%;
+    margin: 0 auto;
   }
   @media screen and (max-width: 380px) {
     width: 100%;
@@ -119,12 +120,12 @@ const NameComponent = styled.div`
 `;
 
 const ContainerGrid = styled.div`
-  width: 90%;
+  max-width: 270px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  gap: 10px;
+  padding: 10px;
   place-items: center;
 `;
 
