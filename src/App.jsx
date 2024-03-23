@@ -11,6 +11,7 @@ import ContactFormComponent from "./components/form";
 // import BlogComponenet from "./components/ourBlog";
 import FotterComponent from "./components/fotter";
 import { Card, CardTitle } from "./components/ui/card";
+import ExperienceComponent from "./components/experience";
 
 function App() {
   const [arrowup, setArrowUp] = useState(false);
@@ -51,9 +52,12 @@ function App() {
           {/* <span className="text-white cursor-pointer hover:underline">
             Blog
           </span> */}
-          <span className="text-white cursor-pointer hover:underline">
+          <a
+            href="#about"
+            className="text-white cursor-pointer hover:underline"
+          >
             About Us
-          </span>
+          </a>
         </div>
         {/* <CiMenuFries size={30} color="indigo" className="cursor-pointer" /> */}
       </div>
@@ -147,7 +151,7 @@ function App() {
           </div>
         </div>
       </Card>
-      <AboutContainer className="flex flex-row w-[98%] p-2 gap-10">
+      <AboutContainer id="about" className="flex flex-row w-[98%] p-2 gap-10">
         <ContactFormComponent />
         <div className="flex flex-col gap-7 ">
           <div className="flex flex-col items-center justify-center bg-slate-400 w-[180px] h-10 rounded-sm">
@@ -208,6 +212,7 @@ function App() {
           </div>
         </div>
       </AboutContainer>
+      <ExperienceComponent />
       <FotterComponent />
     </div>
   );
